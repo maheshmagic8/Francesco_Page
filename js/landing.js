@@ -16,8 +16,8 @@ let count = 0;
 intervalID = setInterval(() => {
     if(count === 100){
         clearInterval(intervalID)
-        hr_percentage.style.opacity="0";
-        hr.style.opacity="0";
+        hr_percentage.style.display="none";
+        hr.style.display="none";
         hero_fotter.style.transitionDelay="4s"
         hero_fotter.style.opacity="1";
         nav.style.opacity="1";
